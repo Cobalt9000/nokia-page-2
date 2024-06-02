@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.map-container {
+  display: flex;
+  height: 100vh;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  overflow-y: auto;
+  filter: invert(100%);
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  filter: invert(100%);
+}
+
+.sites-list,
+.sites-by-type {
+  margin-top: 20px;
+}
+
+.sites-list ul,
+.sites-by-type ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sites-by-type select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.custom-marker {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  filter: invert(100%);  
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup-content {
+  margin: 8px;
+  color: #333;
+}
+
+
+.leaflet-popup-content a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.leaflet-popup-content a:hover {
+  text-decoration: underline;
+}
