@@ -43,27 +43,30 @@ const siteData = [
   // Add more site data as needed
 ];
 
-// fetch('https://nokia-dst.plutoze.me/api/v1/stations/customers/AT%26T')
-//   .then(response => response.json())
-//   .then(data => {
-//     // Store the fetched data in the siteData array
+// const fetchSiteData = async () => {
+//   try {
+//     const response = await fetch('https://nokia-dst.plutoze.me/api/v1/stations/customers/AT%26T');
+//     const data = await response.json();
+
+//     // Transforming the fetched data
 //     const siteData = data.map(site => ({
 //       name: site.name,
-//       type: site.siteType,
-//       customer: site.customer,
+//       type: site.type,
+//       Customer: site.customer,
 //       project: site.project,
-//       coordinates: [site.latitude, site.longitude],
-//       country: site.country,
-//       GeoRegion: site.region
+//       coordinates: site.coordinates,
+//       Country: site.country,
+//       GeoRegion: site.geo_region
 //     }));
 
-//     // You can now use the siteData array in your code
-//     console.log(siteData);
-//     // ... or export it as a module
-//     // export default siteData;
-//   })
-//   .catch(error => {
+//     return siteData;
+//   } catch (error) {
 //     console.error('Error fetching data:', error);
-//   });
+//     return [];
+//   }
+// };
+
+// export default fetchSiteData;
+
 
 export default siteData;

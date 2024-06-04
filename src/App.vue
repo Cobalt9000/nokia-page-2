@@ -134,7 +134,7 @@ siteMarkers.push(marker);
 
 // Create popup content
 var popupContent = '<div><strong>' + site.name + '</strong></div>' +
-'<button><a href="' + `https://nokia-page-3.vercel.app/` + '" target="_blank">Visit Website</a></button>';
+'<button onclick="window.location.href=\'' + `https://nokia-page-3.vercel.app/` + '\'">Visit Website</button>';
 
 // if url is mentioned in siteData
 // '<button><a href="' + site.url + '" target="_blank">Visit Website</a></button>';
