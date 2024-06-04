@@ -1,3 +1,4 @@
+// function getSiteDataByCountry(country) {
 const siteData = 
 // Saudi Arabia
 [
@@ -14,45 +15,62 @@ const siteData =
 
 // USA
 
-  { name: 'Beta', coordinates: [48.86, -97.16], type: 'Self Support', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Zeta', coordinates: [44.97, -123.09], type: 'Monopole', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Kappa', coordinates: [35.61, -106.07], type: 'Monopole', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Xi', coordinates: [41.51, -71.28], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Sigma', coordinates: [30.27, -81.66], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Gain Toe', coordinates: [38.58, -121.49], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Xi Prime', coordinates: [47.04, -109.53], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Zeta Prime', coordinates: [43.61, -116.2], type: 'Guided Tower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Jackly', coordinates: [37.77, -122.42], type: 'Watertower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
-  { name: 'Pi Prime', coordinates: [40.74, -73.99], type: 'Guided Tower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Beta', coordinates: [48.86, -97.16], type: 'Self Support', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Zeta', coordinates: [44.97, -123.09], type: 'Monopole', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Kappa', coordinates: [35.61, -106.07], type: 'Monopole', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Xi', coordinates: [41.51, -71.28], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Sigma', coordinates: [30.27, -81.66], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Gain Toe', coordinates: [38.58, -121.49], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Xi Prime', coordinates: [47.04, -109.53], type: 'Rooftop', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Zeta Prime', coordinates: [43.61, -116.2], type: 'Guided Tower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Jackly', coordinates: [37.77, -122.42], type: 'Watertower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
+//   { name: 'Pi Prime', coordinates: [40.74, -73.99], type: 'Guided Tower', project: 'NAM_AT_1', Country: 'USA', GeoRegion: 'NAM', Customer: 'AT&T'},
 
-// Norway
+// // Norway
 
-  { name: 'Gamma', coordinates: [60.47, 8.47], type: 'Self Support', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Eta', coordinates: [59.91, 10.75], type: 'Monopole', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Lambda', coordinates: [62.16, 6.12], type: 'Monopole', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Omicron', coordinates: [63.44, 10.4], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Tau', coordinates: [61.05, 4.71], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Honny', coordinates: [58.88, 5.74], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Tinny', coordinates: [67.3, 14.52], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Babby John', coordinates: [65.06, 13.35], type: 'Guided Tower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Eta Prime', coordinates: [59.92, 10.68], type: 'Guided Tower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
-  { name: 'Omicron Prime', coordinates: [68.8, 15.64], type: 'Watertower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Gamma', coordinates: [60.47, 8.47], type: 'Self Support', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Eta', coordinates: [59.91, 10.75], type: 'Monopole', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Lambda', coordinates: [62.16, 6.12], type: 'Monopole', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Omicron', coordinates: [63.44, 10.4], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Tau', coordinates: [61.05, 4.71], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Honny', coordinates: [58.88, 5.74], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Tinny', coordinates: [67.3, 14.52], type: 'Rooftop', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Babby John', coordinates: [65.06, 13.35], type: 'Guided Tower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Eta Prime', coordinates: [59.92, 10.68], type: 'Guided Tower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
+//   { name: 'Omicron Prime', coordinates: [68.8, 15.64], type: 'Watertower', project: 'ICE 2024', Country: 'Norway', GeoRegion: 'EUR', Customer: 'ICE Norway'},
 
 
-// France
+// // France
 
-  { name: 'Delta', coordinates: [46.23, 2.21], type: 'Self Support', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Theta', coordinates: [43.6, 1.44], type: 'Monopole', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Mu', coordinates: [48.86, 2.35], type: 'Monopole', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Pi', coordinates: [45.19, 5.73], type: 'Rooftop', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Upsilon', coordinates: [43.3, 5.37], type: 'Rooftop', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Jackly', coordinates: [49.19, 2.38], type: 'Rooftop', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Pi Prime', coordinates: [48.87, 2.34], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Gain Toe', coordinates: [43.7, 7.27], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Xi Prime', coordinates: [46.15, 3.43], type: 'Watertower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
-  { name: 'Zeta Prime', coordinates: [48.58, 7.75], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'}
+//   { name: 'Delta', coordinates: [46.23, 2.21], type: 'Self Support', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Theta', coordinates: [43.6, 1.44], type: 'Monopole', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Mu', coordinates: [48.86, 2.35], type: 'Monopole', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Pi', coordinates: [45.19, 5.73], type: 'Rooftop', project: 'SFR 2023_2', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Upsilon', coordinates: [43.3, 5.37], type: 'Rooftop', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Jackly', coordinates: [49.19, 2.38], type: 'Rooftop', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Pi Prime', coordinates: [48.87, 2.34], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Gain Toe', coordinates: [43.7, 7.27], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Xi Prime', coordinates: [46.15, 3.43], type: 'Watertower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'},
+//   { name: 'Zeta Prime', coordinates: [48.58, 7.75], type: 'Guided Tower', project: 'SFR 2024', Country: 'France', GeoRegion: 'EUR', Customer: 'SFR'}
 ];
 
+// const siteData = Data.filter(site => site.Country === country);
+//   return siteData;
+
+
+// const saudiarabiaSites = getSiteDataByCountry('Saudi Arabia');
+// console.log(saudiarabiaSites);
+
+// const usaSites = getSiteDataByCountry('USA');
+// console.log(usaSites);
+
+// const norwaySites = getSiteDataByCountry('Norway');
+// console.log(norwaySites);
+
+// const franceSites = getSiteDataByCountry('France');
+// console.log(franceSites);
+
+export default siteData;
 
 
 // const siteData = [
@@ -126,4 +144,3 @@ const siteData =
 // export default fetchSiteData;
 
 
-export default siteData;
